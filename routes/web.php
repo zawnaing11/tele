@@ -17,3 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::view('/blank', 'backend.blank');
+Route::view('/site', 'backend.site');
